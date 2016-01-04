@@ -1,2 +1,2 @@
 # Assemblage
-Assemblage images into a sleek resizable photo grid with JS
+## Sleek resizable photo grid for the web

@@ -39,8 +39,8 @@ function Grid (a, c, m, el) {
                 t += x / c * this.index[r - 1][img.index].proportion;
                 r--;
             }
-            img.style.top = t;
-            img.style.left = (img.width + m) * img.index + m;
+            img.style.top = t + 'px';
+            img.style.left = (img.width + m) * img.index + m + 'px';
             img.style.position = 'absolute';
             if (!this.render) {
                 el.appendChild(img);
@@ -48,6 +48,7 @@ function Grid (a, c, m, el) {
             this.images[i] = img;
             this.index[img.row][img.index] = img;
         }.bind(this));
+        this.render++;
     }.bind(this);
     window.addEventListener('resize', this.size);
 }
