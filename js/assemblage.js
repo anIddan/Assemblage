@@ -1,4 +1,4 @@
-/*! PHOTO GRID v1 | (c) 2015 Iddan Aharonson | MIT License | http://github.com/anIddan */
+/*! ASSEMBLAGE v1 | (c) 2015 Iddan Aharonson | MIT License | http://github.com/anIddan */
 
 /*----  TO DO  ----
  * media queries
